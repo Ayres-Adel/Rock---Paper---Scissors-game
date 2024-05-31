@@ -1,0 +1,47 @@
+body {
+    background-color: lightblue;
+}
+
+h1 {
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 3rem;
+    color: white;
+    margin: 5rem;
+}
+
+h2 {
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 3rem;
+    color: white;
+    margin: 2rem;
+}
+
+p {
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 3rem;
+    color: white;
+    margin: 2rem;
+}
+
+.game {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.btn_game  {
+    font-size: 3.5rem;
+    min-width: 160px;
+    margin: 0 160px;
+    border-radius: 250px;
+    background-color: hsl(200,100%,50%);
+    cursor: pointer;
+    transition: background-color 0.5 ease;
+}
+
+.btn_game:hover {
+    background-color: hsl(200,100%,70%);
+}
